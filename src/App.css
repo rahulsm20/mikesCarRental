@@ -1,0 +1,166 @@
+@media screen and (max-width:768px) {
+  img > .image{
+    width:70%
+  }
+  .card{
+    width:70%;
+    align-self: center;
+  }
+  #intro:before{
+    font-size: small;
+  }
+  .description{
+    width:70%;
+    margin-top: 2em;
+  }
+  .table{
+    width: 50%;
+  }
+  #rental-form{
+    width:auto;
+  }
+}
+ h1 {
+  text-align: center;
+ }
+ body{
+  color: aliceblue;
+  background-color: #141414;
+  font-family: Inter;
+  margin: auto;
+}
+nav{
+  color: aliceblue;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  padding: 1em;
+}
+ul,li{
+  display: flex;
+  list-style: none;
+  padding: 0.2em;
+}
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+#Logo{
+  font-family: Italiana;
+  font-size: 1.5rem; 
+  position: absolute;
+  margin: 0% 0% auto 70%;
+}
+.most-popular{
+  position: absolute;
+  padding: 0.8em;
+  width: 100%;
+  display: flex;
+  background-color: #0a0a0a;
+}
+#intro{
+  position: absolute;
+  color:azure;
+  margin:3em;
+  font-size: 40px;
+}
+#banner{
+  height: 100%;
+  width: 100%;  
+}
+#search-bar{
+  color: black;
+  border-radius: 2em;
+  border: 0px none transparent;
+  position: absolute;
+  font-size: 1rem;
+  margin: 14% 40% 50% 40%;
+  justify-content:   center;
+  background-color:bisque;
+}
+.search{
+  padding:1.8em;
+  border-radius: 2em;
+  position:absolute;
+  margin: 14% 20% 0% 57%;
+  background-color: rgb(250, 215, 173);
+  border: 0 none transparent;
+}
+.sort-filter{
+  margin: 0% 0% auto 30%;
+}
+.btn{
+  color: white;
+  background-color:#0e161f;
+}
+
+.card{
+  border: 0.15em solid #384352;
+  background-color:#0e161f ;
+  text-decoration: none;
+  border-radius: 4rem;
+  color: white;
+  }
+
+  .image{
+    border-radius: 3em;
+    height: auto;
+  }
+.card-body{
+  text-align: center;
+}
+.card-caption{
+  background-color: #0e161f;
+  border-radius: 4rem;
+  padding: 2em;  
+  font-size: 13px;
+  width: 100%;  
+}
+
+.row{
+  position: relative;
+  margin: 5%;
+}
+#book-now{
+  background-color: #3F3B6C;
+  position: relative;
+  border-radius: 1em;
+}
+.car-image{
+  position: relative;
+}
+.input{
+  border: 0 none transparent;
+  border-radius: 1em;
+}
+
+
+.description{
+background-color: #222831;
+border-radius: 1em;
+box-shadow:6px -6px #384352;
+}
+table{
+  font-size: 1em;
+}
+
+#city{
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+}
+
+.icon{
+  max-width: 1.5em;
+  position: relative;   
+}
+img{
+  width: 110%;
+  height: auto;
+}
+input{
+  border: 0px none transparent ;
+  border-radius: 0.5em;
+}
+
